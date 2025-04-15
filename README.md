@@ -57,13 +57,13 @@ This will:
 Prepare training pairs
 Train the Siamese model
 Save training metrics and the trained model
----
+
 ### Outputs
 training_history.png – Accuracy and loss plots
 model_metrics.png – Evaluation visualizations
 image_comparison_model.keras – Trained model
 Console Output – Full classification report
-----
+
 ### Comparing Image Pairs
 Use the compare_all_pairs(model) function to detect tampered regions:
 from your_script import train_model, compare_all_pairs
