@@ -22,7 +22,7 @@ This project implements an image tamper detection system using a Siamese Neural 
 - CNN-based base network with 3 convolutional layers
 - `Custom DistanceLayer` computes absolute difference between embeddings
 - Final sigmoid layer outputs similarity score:
-  - `0 = same`, `1 = tampered`
+  - `1 = same`, `0 = tampered`
 
 ---
 
